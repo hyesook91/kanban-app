@@ -5,7 +5,7 @@ import ContactList from './ContactList'
 class ContactsApp extends Component {
     constructor() {
         super();
-        this.state={
+        this.state = {
             filterText: ''
         };
     }
@@ -17,10 +17,10 @@ class ContactsApp extends Component {
     render() {
         return (
             <div>
-            <SearchBar filterText={this.state.filterText} onUserInput={this.handleUserInput.bind(this)} />
-    <ContactList contacts={this.props.contacts} filterText={this.state.filterText} />
-    </div>
-    )
+                <SearchBar filterText={this.state.filterText} onUserInput={this.handleUserInput.bind(this)}/>
+                <ContactList contacts={this.props.contacts} filterText={this.state.filterText}/>
+            </div>
+        )
     }
 }
 ContactsApp.propTypes = {

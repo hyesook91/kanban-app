@@ -8,7 +8,7 @@ let contacts = [
     {name: "Pete Hunt", email: "floydophone@gmail.com"},
     {name: "Paul O'Shannessy", email: "zpao@gmail.com"},
     {name: "Ryan Florence", email: "rpflorence@gmail.com"},
-    {name: "Sevastian Markbage", email: "sebmarkbage@gmail.com"},
+    {name: "Sevastian Markbage", email: "sebmarkbage@gmail.com"}
 ];
 
-render(<ContactsApp contacts={contacts} />, document.getElementById('root'));
+render(<ContactsApp contacts={contacts}/>, document.getElementById('root'));

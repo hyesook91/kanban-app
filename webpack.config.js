@@ -5,7 +5,7 @@ var webpack = require('webpack');
  */
 var config = {
     devtool: 'eval-source-map',
-    entry:  __dirname + "/app/App.js",
+    entry: __dirname + "/app/App.js",
     output: {
         path: __dirname + "/public",
         filename: "bundle.js"
@@ -16,7 +16,7 @@ var config = {
             exclude: /node_modules/,
             loader: 'babel',
             query: {
-                presets: ['es2015','react']
+                presets: ['es2015', 'react']
             }
         }]
     },

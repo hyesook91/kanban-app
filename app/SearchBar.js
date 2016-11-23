@@ -7,9 +7,9 @@ class SearchBar extends Component {
 
     render() {
         return <input type="search"
-        placeholder="search"
-        value={this.props.filterText}
-        onChange={this.handleChange.bind(this)} />
+                      placeholder="search"
+                      value={this.props.filterText}
+                      onChange={this.handleChange.bind(this)}/>
     }
 }
 SearchBar.propTypes = {
